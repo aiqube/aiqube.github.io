@@ -16,7 +16,7 @@ OCR Thaiid API service that can Extract information from Thai id photo both fron
 
 |Parameter   |Description   |
 |---|---|
-|x-api-key   | API key authentication  |
+|X-API-KEY   | API key authentication  |
 
 
 ### POST data example
@@ -35,3 +35,31 @@ OCR Thaiid API service that can Extract information from Thai id photo both fron
 |image   | image contain thai id card that encode with `base64` method  |
 |side | Specific side for recognition `front` for font side, `back` for back side (default is `front`)|
 
+### Example request
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="python" label="Python">
+
+```python
+import base64
+import requests
+
+with open("image.jpg", "rb") as image_file:
+    img_data = base64.b64encode(image_file.read())
+
+headers = {
+  'X-API-KEY': 'XXXX',
+  'Content-Type': 'application/json'
+}
+url = API_ENDPOINT
+
+payload = {'image': img_data.decode('utf-8'), 'side': 'front'}
+response = requests.request("POST", url, headers=headers, json=payload)
+data = response.json()
+```
+
+</TabItem>
+</Tabs>
