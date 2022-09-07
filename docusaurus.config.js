@@ -60,10 +60,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'AIQUBE',
+        // title: 'AIQUBE',
         logo: {
           alt: 'AIQUBE Logo',
-          src: 'img/aiqube.png',
+          src: 'img/AIQUBE_Side.png',
         },
         items: [
           {
