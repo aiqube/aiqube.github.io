@@ -12,7 +12,7 @@ Thai Address parser from address string in Thai format.
 
 ### HTTP Request
 
-`POST https://apigw.qubit-plus.com/aiqube/thai-address/v1/parser`
+`POST /aiqube/thai-address/v1/parser`
 
 ### HTTP Header
 

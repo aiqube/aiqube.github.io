@@ -5,7 +5,7 @@ slug: /
 
 # What is
 
-![AIQUBE](/img/AIQUBE_Below.png)
+![AIQUBE](/img/logo.svg)
 
 We developing artificial intelligence and analytics applications typically involves different processes, technology, and talent than those for traditional software solutions.
 
