@@ -10,7 +10,7 @@ Face Recognition API service that can recognition a person in dataset.
 
 ### HTTP Request
 
-`POST /aiqube/thai-star-face-recognition/v1/face_predict`
+`POST /aiqube/face-recognition/v1/face_predict`
 
 ### HTTP Header
 
