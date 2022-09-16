@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkaiqube_github_io=self.webpackChunkaiqube_github_io||[]).push([[750],{6966:e=>{e.exports=JSON.parse('{"title":"API","description":"Face produt document","slug":"/category/api","permalink":"/category/api","navigation":{"previous":{"title":"What is","permalink":"/"},"next":{"title":"Face Comparison","permalink":"/API/face-comparison"}}}')}}]);
